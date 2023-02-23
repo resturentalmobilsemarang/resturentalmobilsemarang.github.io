@@ -1,0 +1,117 @@
+0000.073 (R) [notice] Looking for db archive: file name: backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-db.gz
+0000.074 (R) [notice] Archive is expected to be size: 190 KB: OK
+0000.078 (R) [notice] Looking for uploads archive: file name: backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-uploads.zip
+0000.080 (R) [notice] Archive is expected to be size: 3907.2 KB: OK
+0000.106 (R) [notice] Unpacking backup... (backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-db.gz, 0.2 Mb)
+0000.112 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.758 (R) [notice] Mengaktifkan moda perawatan&#8230;
+0002.121 (R) [notice] Backup created by: 2.16.58.25
+0002.123 (R) [notice] Backup of: https://resturentalmobil.com
+0002.130 (R) [notice] Content URL: https://resturentalmobil.com/wp-content
+0002.131 (R) [notice] Uploads URL: https://resturentalmobil.com/wp-content/uploads
+0002.132 (R) [notice] Old table prefix: wpzt_
+0002.134 (R) [notice] Site information: multisite = 0
+0002.135 (R) [notice] Site information: sql_mode = NO_ENGINE_SUBSTITUTION
+0002.146 (R) [notice] New table prefix: tb_
+0002.282 (R) [notice] Processing table (InnoDB):  wpzt_options - will restore as: tb_options
+0002.910 (R) [notice] Atomic restore: dropping original table (rst_options)
+0003.010 (R) [notice] Atomic restore: renaming new table (tb_options) to final table name (rst_options)
+0003.359 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0003.400 (R) [notice] Processing table (InnoDB):  wpzt_users - will restore as: tb_users
+0003.900 (R) [notice] Atomic restore: dropping original table (rst_users)
+0004.156 (R) [notice] Atomic restore: renaming new table (tb_users) to final table name (rst_users)
+0004.411 (R) [notice] Processing table (InnoDB):  wpzt_usermeta - will restore as: tb_usermeta
+0004.838 (R) [notice] Atomic restore: dropping original table (rst_usermeta)
+0005.816 (R) [notice] Atomic restore: renaming new table (tb_usermeta) to final table name (rst_usermeta)
+0006.066 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0006.067 (R) [notice] Processing table (InnoDB):  wpzt_commentmeta - will restore as: tb_commentmeta
+0007.444 (R) [notice] Atomic restore: dropping original table (rst_commentmeta)
+0007.733 (R) [notice] Atomic restore: renaming new table (tb_commentmeta) to final table name (rst_commentmeta)
+0007.970 (R) [notice] Processing table (InnoDB):  wpzt_comments - will restore as: tb_comments
+0008.724 (R) [notice] Atomic restore: dropping original table (rst_comments)
+0008.863 (R) [notice] Atomic restore: renaming new table (tb_comments) to final table name (rst_comments)
+0008.997 (R) [notice] Processing table (InnoDB):  wpzt_links - will restore as: tb_links
+0009.463 (R) [notice] Atomic restore: dropping original table (rst_links)
+0009.711 (R) [notice] Atomic restore: renaming new table (tb_links) to final table name (rst_links)
+0010.067 (R) [notice] Processing table (InnoDB):  wpzt_postmeta - will restore as: tb_postmeta
+0014.080 (R) [notice] Atomic restore: dropping original table (rst_postmeta)
+0014.330 (R) [notice] Atomic restore: renaming new table (tb_postmeta) to final table name (rst_postmeta)
+0014.480 (R) [notice] Processing table (InnoDB):  wpzt_posts - will restore as: tb_posts
+0018.821 (R) [notice] Atomic restore: dropping original table (rst_posts)
+0019.005 (R) [notice] Atomic restore: renaming new table (tb_posts) to final table name (rst_posts)
+0019.185 (R) [notice] Processing table (InnoDB):  wpzt_term_relationships - will restore as: tb_term_relationships
+0019.649 (R) [notice] Atomic restore: dropping original table (rst_term_relationships)
+0019.974 (R) [notice] Atomic restore: renaming new table (tb_term_relationships) to final table name (rst_term_relationships)
+0021.332 (R) [notice] Processing table (InnoDB):  wpzt_term_taxonomy - will restore as: tb_term_taxonomy
+0021.792 (R) [notice] Atomic restore: dropping original table (rst_term_taxonomy)
+0022.047 (R) [notice] Atomic restore: renaming new table (tb_term_taxonomy) to final table name (rst_term_taxonomy)
+0022.269 (R) [notice] Processing table (InnoDB):  wpzt_termmeta - will restore as: tb_termmeta
+0024.111 (R) [notice] Atomic restore: dropping original table (rst_termmeta)
+0024.444 (R) [notice] Atomic restore: renaming new table (tb_termmeta) to final table name (rst_termmeta)
+0024.973 (R) [notice] Processing table (InnoDB):  wpzt_terms - will restore as: tb_terms
+0025.611 (R) [notice] Atomic restore: dropping original table (rst_terms)
+0027.738 (R) [notice] Atomic restore: renaming new table (tb_terms) to final table name (rst_terms)
+0028.150 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_order_itemmeta - will restore as: tb_woocommerce_order_itemmeta
+0028.962 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_order_itemmeta)
+0029.849 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_order_itemmeta) to final table name (rst_woocommerce_order_itemmeta)
+0030.356 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_payment_tokenmeta - will restore as: tb_woocommerce_payment_tokenmeta
+0030.768 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_payment_tokenmeta)
+0031.049 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_payment_tokenmeta) to final table name (rst_woocommerce_payment_tokenmeta)
+0031.287 (R) [notice] Constraints found, will disable atomic restore for current table (wpzt_wc_download_log)
+0031.494 (R) [notice] Processing table (InnoDB):  wpzt_wc_download_log - will restore as: rst_wc_download_log
+0031.494 (R) [notice] Found and replaced existing table foreign key constraints as the table prefix has changed.
+0032.694 (R) [notice] Processing table (InnoDB):  wpzt_wc_webhooks - will restore as: tb_wc_webhooks
+0033.229 (R) [notice] Database queries processed: 50 in 33.11 seconds
+0033.344 (R) [notice] Atomic restore: dropping original table (rst_wc_webhooks)
+0033.624 (R) [notice] Atomic restore: renaming new table (tb_wc_webhooks) to final table name (rst_wc_webhooks)
+0034.074 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_api_keys - will restore as: tb_woocommerce_api_keys
+0034.391 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_api_keys)
+0034.598 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_api_keys) to final table name (rst_woocommerce_api_keys)
+0035.649 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_attribute_taxonomies - will restore as: tb_woocommerce_attribute_taxonomies
+0036.486 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_attribute_taxonomies)
+0037.043 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_attribute_taxonomies) to final table name (rst_woocommerce_attribute_taxonomies)
+0037.426 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_downloadable_product_permissions - will restore as: tb_woocommerce_downloadable_product_permissions
+0039.131 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_downloadable_product_permissions)
+0039.453 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_downloadable_product_permissions) to final table name (rst_woocommerce_downloadable_product_permissions)
+0039.717 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_log - will restore as: tb_woocommerce_log
+0039.923 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_log)
+0040.075 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_log) to final table name (rst_woocommerce_log)
+0040.680 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_order_items - will restore as: tb_woocommerce_order_items
+0040.932 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_order_items)
+0041.079 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_order_items) to final table name (rst_woocommerce_order_items)
+0041.232 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_payment_tokens - will restore as: tb_woocommerce_payment_tokens
+0041.473 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_payment_tokens)
+0041.654 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_payment_tokens) to final table name (rst_woocommerce_payment_tokens)
+0042.073 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_sessions - will restore as: tb_woocommerce_sessions
+0043.250 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_sessions)
+0043.493 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_sessions) to final table name (rst_woocommerce_sessions)
+0043.720 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_shipping_zone_locations - will restore as: tb_woocommerce_shipping_zone_locations
+0043.936 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_shipping_zone_locations)
+0044.178 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_shipping_zone_locations) to final table name (rst_woocommerce_shipping_zone_locations)
+0044.459 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_shipping_zone_methods - will restore as: tb_woocommerce_shipping_zone_methods
+0044.640 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_shipping_zone_methods)
+0045.840 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_shipping_zone_methods) to final table name (rst_woocommerce_shipping_zone_methods)
+0046.508 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_shipping_zones - will restore as: tb_woocommerce_shipping_zones
+0046.842 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_shipping_zones)
+0047.176 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_shipping_zones) to final table name (rst_woocommerce_shipping_zones)
+0047.346 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_tax_rate_locations - will restore as: tb_woocommerce_tax_rate_locations
+0047.571 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_tax_rate_locations)
+0047.767 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_tax_rate_locations) to final table name (rst_woocommerce_tax_rate_locations)
+0048.086 (R) [notice] Processing table (InnoDB):  wpzt_woocommerce_tax_rates - will restore as: tb_woocommerce_tax_rates
+0049.289 (R) [notice] Atomic restore: dropping original table (rst_woocommerce_tax_rates)
+0049.482 (R) [notice] Atomic restore: renaming new table (tb_woocommerce_tax_rates) to final table name (rst_woocommerce_tax_rates)
+0049.653 (R) [notice] Processing table (InnoDB):  wpzt_wpie_template - will restore as: tb_wpie_template
+0055.159 (R) [notice] Menonaktifkan moda perawatan&#8230;
+0055.161 (R) [notice] Atomic restore: dropping original table (rst_wpie_template)
+0056.031 (R) [notice] Atomic restore: renaming new table (tb_wpie_template) to final table name (rst_wpie_template)
+0056.274 (R) [notice] Finished: lines processed: 81 in 56.15 seconds
+0056.276 (R) [notice] Cleaning up rubbish...
+0056.278 (R) [notice] This option was not selected.
+0056.482 (R) [notice] Unpacking backup... (backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-uploads.zip, 3.8 MB)
+0057.573 (R) [notice] Unzip progress: 265 out of 265 files (4.8 MB, uploads/2023/02/Rental-Persewaan-Hiace-Commuter-15-seat-Semarang-100x100.jpg)
+0057.591 (R) [notice] Moving old data out of the way...
+0058.864 (R) [notice] Moving unpacked backup into place...
+0058.980 (R) [notice] Cleaning up rubbish...
+0059.163 (R) [notice] Plugin path purge-cloud-flare/purge-cloud-flare.php not found: de-activating.
+0059.290 (R) [notice] Clearing cached pages (WP Super Cache)...
+0059.339 (R) [notice] Restore successful!

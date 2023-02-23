@@ -1,0 +1,141 @@
+0000.040 () Opened log file at time: Thu, 23 Feb 2023 11:25:59 +0000 on https://resturentalmobil.com
+0000.040 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 95.4M | 4M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.041 () Free space on disk containing Updraft's temporary directory: 364496.8 MB
+0000.214 () Restore setup, now closing connection and starting restore over AJAX.
+0000.027 () Opened log file at time: Thu, 23 Feb 2023 11:26:02 +0000 on https://resturentalmobil.com
+0000.027 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.22 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 4096M (used: 94.5M | 14M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.027 () Free space on disk containing Updraft's temporary directory: 364496.8 MB
+0000.042 () Ensuring WP_Filesystem is setup for a restore
+0000.044 () WP_Filesystem is setup and ready for a restore
+0000.072 () Restore job started. Entities to restore: uploads, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpzt_options","wpzt_users","wpzt_usermeta","wpzt_commentmeta","wpzt_comments","wpzt_links","wpzt_postmeta","wpzt_posts","wpzt_term_relationships","wpzt_term_taxonomy","wpzt_termmeta","wpzt_terms","wpzt_woocommerce_order_itemmeta","wpzt_woocommerce_payment_tokenmeta","wpzt_wc_download_log","wpzt_wc_webhooks","wpzt_woocommerce_api_keys","wpzt_woocommerce_attribute_taxonomies","wpzt_woocommerce_downloadable_product_permissions","wpzt_woocommerce_log","wpzt_woocommerce_order_items","wpzt_woocommerce_payment_tokens","wpzt_woocommerce_sessions","wpzt_woocommerce_shipping_zone_locations","wpzt_woocommerce_shipping_zone_methods","wpzt_woocommerce_shipping_zones","wpzt_woocommerce_tax_rate_locations","wpzt_woocommerce_tax_rates","wpzt_wpie_template"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.105 () Entity: db
+0000.105 () restore_backup(backup_file=backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-db.gz, type=db, info=a:0:{}, last_one=)
+0000.106 () Unpacking backup... (backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-db.gz, 0.2 Mb)
+0000.110 () Database successfully unpacked
+0000.112 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.114 () Using direct MySQL access; value of use_mysqli is: 1
+0000.115 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.758 () Max packet size: 32 MB
+0001.758 () Entering maintenance mode
+0001.758 () Mengaktifkan moda perawatan&#8230;
+0002.122 () Backup created by: 2.16.58.25
+0002.122 () Backup of: https://resturentalmobil.com
+0002.131 () Content URL: https://resturentalmobil.com/wp-content
+0002.132 () Uploads URL: https://resturentalmobil.com/wp-content/uploads
+0002.133 () Old table prefix: wpzt_
+0002.134 () Site information: multisite=0
+0002.135 () Site information: sql_mode=NO_ENGINE_SUBSTITUTION
+0002.146 () New table prefix: tb_
+0002.282 () Processing table (InnoDB): wpzt_options - will restore as: tb_options
+0002.910 () Atomic restore: dropping original table (rst_options)
+0003.010 () Atomic restore: renaming new table (tb_options) to final table name (rst_options)
+0003.153 () Restoring prior UD configuration (table: rst_options; keys: 4)
+0003.284 () Table prefix has changed: changing options table field(s) accordingly (options)
+0003.358 () Options table fields changed OK
+0003.400 () Processing table (InnoDB): wpzt_users - will restore as: tb_users
+0003.900 () Atomic restore: dropping original table (rst_users)
+0004.156 () Atomic restore: renaming new table (tb_users) to final table name (rst_users)
+0004.411 () Processing table (InnoDB): wpzt_usermeta - will restore as: tb_usermeta
+0004.822 () Atomic restore: dropping original table (rst_usermeta)
+0005.816 () Atomic restore: renaming new table (tb_usermeta) to final table name (rst_usermeta)
+0005.997 () Table prefix has changed: changing usermeta table field(s) accordingly
+0006.065 () Usermeta table fields changed OK
+0006.067 () Processing table (InnoDB): wpzt_commentmeta - will restore as: tb_commentmeta
+0007.443 () Atomic restore: dropping original table (rst_commentmeta)
+0007.733 () Atomic restore: renaming new table (tb_commentmeta) to final table name (rst_commentmeta)
+0007.970 () Processing table (InnoDB): wpzt_comments - will restore as: tb_comments
+0008.724 () Atomic restore: dropping original table (rst_comments)
+0008.863 () Atomic restore: renaming new table (tb_comments) to final table name (rst_comments)
+0008.997 () Processing table (InnoDB): wpzt_links - will restore as: tb_links
+0009.462 () Atomic restore: dropping original table (rst_links)
+0009.711 () Atomic restore: renaming new table (tb_links) to final table name (rst_links)
+0010.066 () Processing table (InnoDB): wpzt_postmeta - will restore as: tb_postmeta
+0014.080 () Atomic restore: dropping original table (rst_postmeta)
+0014.330 () Atomic restore: renaming new table (tb_postmeta) to final table name (rst_postmeta)
+0014.479 () Processing table (InnoDB): wpzt_posts - will restore as: tb_posts
+0018.821 () Atomic restore: dropping original table (rst_posts)
+0019.005 () Atomic restore: renaming new table (tb_posts) to final table name (rst_posts)
+0019.185 () Processing table (InnoDB): wpzt_term_relationships - will restore as: tb_term_relationships
+0019.649 () Atomic restore: dropping original table (rst_term_relationships)
+0019.974 () Atomic restore: renaming new table (tb_term_relationships) to final table name (rst_term_relationships)
+0021.332 () Processing table (InnoDB): wpzt_term_taxonomy - will restore as: tb_term_taxonomy
+0021.792 () Atomic restore: dropping original table (rst_term_taxonomy)
+0022.047 () Atomic restore: renaming new table (tb_term_taxonomy) to final table name (rst_term_taxonomy)
+0022.269 () Processing table (InnoDB): wpzt_termmeta - will restore as: tb_termmeta
+0024.111 () Atomic restore: dropping original table (rst_termmeta)
+0024.444 () Atomic restore: renaming new table (tb_termmeta) to final table name (rst_termmeta)
+0024.973 () Processing table (InnoDB): wpzt_terms - will restore as: tb_terms
+0025.611 () Atomic restore: dropping original table (rst_terms)
+0027.737 () Atomic restore: renaming new table (tb_terms) to final table name (rst_terms)
+0028.150 () Processing table (InnoDB): wpzt_woocommerce_order_itemmeta - will restore as: tb_woocommerce_order_itemmeta
+0028.962 () Atomic restore: dropping original table (rst_woocommerce_order_itemmeta)
+0029.849 () Atomic restore: renaming new table (tb_woocommerce_order_itemmeta) to final table name (rst_woocommerce_order_itemmeta)
+0030.356 () Processing table (InnoDB): wpzt_woocommerce_payment_tokenmeta - will restore as: tb_woocommerce_payment_tokenmeta
+0030.768 () Atomic restore: dropping original table (rst_woocommerce_payment_tokenmeta)
+0031.049 () Atomic restore: renaming new table (tb_woocommerce_payment_tokenmeta) to final table name (rst_woocommerce_payment_tokenmeta)
+0031.494 () Processing table (InnoDB): wpzt_wc_download_log - will restore as: rst_wc_download_log
+0032.694 () Processing table (InnoDB): wpzt_wc_webhooks - will restore as: tb_wc_webhooks
+0033.229 () Database queries processed: 50 in 33.11 seconds
+0033.344 () Atomic restore: dropping original table (rst_wc_webhooks)
+0033.624 () Atomic restore: renaming new table (tb_wc_webhooks) to final table name (rst_wc_webhooks)
+0034.073 () Processing table (InnoDB): wpzt_woocommerce_api_keys - will restore as: tb_woocommerce_api_keys
+0034.391 () Atomic restore: dropping original table (rst_woocommerce_api_keys)
+0034.598 () Atomic restore: renaming new table (tb_woocommerce_api_keys) to final table name (rst_woocommerce_api_keys)
+0035.648 () Processing table (InnoDB): wpzt_woocommerce_attribute_taxonomies - will restore as: tb_woocommerce_attribute_taxonomies
+0036.486 () Atomic restore: dropping original table (rst_woocommerce_attribute_taxonomies)
+0037.043 () Atomic restore: renaming new table (tb_woocommerce_attribute_taxonomies) to final table name (rst_woocommerce_attribute_taxonomies)
+0037.426 () Processing table (InnoDB): wpzt_woocommerce_downloadable_product_permissions - will restore as: tb_woocommerce_downloadable_product_permissions
+0039.131 () Atomic restore: dropping original table (rst_woocommerce_downloadable_product_permissions)
+0039.453 () Atomic restore: renaming new table (tb_woocommerce_downloadable_product_permissions) to final table name (rst_woocommerce_downloadable_product_permissions)
+0039.717 () Processing table (InnoDB): wpzt_woocommerce_log - will restore as: tb_woocommerce_log
+0039.923 () Atomic restore: dropping original table (rst_woocommerce_log)
+0040.074 () Atomic restore: renaming new table (tb_woocommerce_log) to final table name (rst_woocommerce_log)
+0040.680 () Processing table (InnoDB): wpzt_woocommerce_order_items - will restore as: tb_woocommerce_order_items
+0040.932 () Atomic restore: dropping original table (rst_woocommerce_order_items)
+0041.079 () Atomic restore: renaming new table (tb_woocommerce_order_items) to final table name (rst_woocommerce_order_items)
+0041.231 () Processing table (InnoDB): wpzt_woocommerce_payment_tokens - will restore as: tb_woocommerce_payment_tokens
+0041.473 () Atomic restore: dropping original table (rst_woocommerce_payment_tokens)
+0041.654 () Atomic restore: renaming new table (tb_woocommerce_payment_tokens) to final table name (rst_woocommerce_payment_tokens)
+0042.073 () Processing table (InnoDB): wpzt_woocommerce_sessions - will restore as: tb_woocommerce_sessions
+0043.249 () Atomic restore: dropping original table (rst_woocommerce_sessions)
+0043.493 () Atomic restore: renaming new table (tb_woocommerce_sessions) to final table name (rst_woocommerce_sessions)
+0043.719 () Processing table (InnoDB): wpzt_woocommerce_shipping_zone_locations - will restore as: tb_woocommerce_shipping_zone_locations
+0043.936 () Atomic restore: dropping original table (rst_woocommerce_shipping_zone_locations)
+0044.178 () Atomic restore: renaming new table (tb_woocommerce_shipping_zone_locations) to final table name (rst_woocommerce_shipping_zone_locations)
+0044.458 () Processing table (InnoDB): wpzt_woocommerce_shipping_zone_methods - will restore as: tb_woocommerce_shipping_zone_methods
+0044.640 () Atomic restore: dropping original table (rst_woocommerce_shipping_zone_methods)
+0045.840 () Atomic restore: renaming new table (tb_woocommerce_shipping_zone_methods) to final table name (rst_woocommerce_shipping_zone_methods)
+0046.508 () Processing table (InnoDB): wpzt_woocommerce_shipping_zones - will restore as: tb_woocommerce_shipping_zones
+0046.842 () Atomic restore: dropping original table (rst_woocommerce_shipping_zones)
+0047.176 () Atomic restore: renaming new table (tb_woocommerce_shipping_zones) to final table name (rst_woocommerce_shipping_zones)
+0047.345 () Processing table (InnoDB): wpzt_woocommerce_tax_rate_locations - will restore as: tb_woocommerce_tax_rate_locations
+0047.570 () Atomic restore: dropping original table (rst_woocommerce_tax_rate_locations)
+0047.767 () Atomic restore: renaming new table (tb_woocommerce_tax_rate_locations) to final table name (rst_woocommerce_tax_rate_locations)
+0048.086 () Processing table (InnoDB): wpzt_woocommerce_tax_rates - will restore as: tb_woocommerce_tax_rates
+0049.289 () Atomic restore: dropping original table (rst_woocommerce_tax_rates)
+0049.482 () Atomic restore: renaming new table (tb_woocommerce_tax_rates) to final table name (rst_woocommerce_tax_rates)
+0049.653 () Processing table (InnoDB): wpzt_wpie_template - will restore as: tb_wpie_template
+0050.121 () UpdraftPlus Vault: this site has not been connected - check your settings
+0055.158 () Unlocking database and leaving maintenance mode
+0055.159 () Menonaktifkan moda perawatan&#8230;
+0055.161 () Atomic restore: dropping original table (rst_wpie_template)
+0056.031 () Atomic restore: renaming new table (tb_wpie_template) to final table name (rst_wpie_template)
+0056.274 () Finished: lines processed: 81 in 56.15 seconds
+0056.275 () Cleaning up rubbish...
+0056.277 () Begin search and replace (updraftplus_restored_db)
+0056.277 () [Database-replace-site-url] Database: search and replace site URL
+0056.277 () This option was not selected.
+0056.481 () Entity: uploads
+0056.481 () restore_backup(backup_file=backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=1)
+0056.482 () Unpacking backup... (backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-uploads.zip, 3.8 MB)
+0056.516 () Unzipping backup_2023-02-23-1811_Restu_Rental_Sewa_Mobil_Semarang_bc14583aebe8-uploads.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/4400b5a7/ using UpdraftPlus_ZipArchive, starting index 0
+0057.573 () Unzip progress: 265 out of 265 files (4.8 MB, uploads/2023/02/Rental-Persewaan-Hiace-Commuter-15-seat-Semarang-100x100.jpg)
+0057.589 () Moving old data: filesystem method / updraft_dir is potentially possible
+0057.590 () Moving old data: can potentially use wp_filesystem method / -old
+0057.590 () Moving old data out of the way...
+0058.864 () Moving unpacked backup into place...
+0058.980 () Cleaning up rubbish...
+0059.163 () Plugin path purge-cloud-flare/purge-cloud-flare.php not found: de-activating.
+0059.290 () Clearing cached pages (WP Super Cache)...
+0059.339 () Restore successful!
+0059.340 () Restore successful

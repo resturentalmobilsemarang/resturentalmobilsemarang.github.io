@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/vj-wp-import-export/
+
+Sitemap: https://resturentalmobil.com/sitemap.xml
