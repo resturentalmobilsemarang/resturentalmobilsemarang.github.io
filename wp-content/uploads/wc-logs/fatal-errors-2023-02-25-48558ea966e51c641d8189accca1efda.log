@@ -1,0 +1,62 @@
+2023-02-26T00:29:35+00:00 CRITICAL Uncaught Error: Call to undefined function ACFFrontend\register_block_type() in D:\xampp-7.1\htdocs\wp-content\plugins\acf-frontend-form-element-pro\includes\gutenberg\module.php:17
+Stack trace:
+#0 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(286): ACFFrontend\ACFFrontend_Gutenberg->register_blocks('')
+#1 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp-7.1\htdocs\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp-7.1\htdocs\wp-settings.php(450): do_action('init')
+#4 D:\xampp-7.1\htdocs\wp-config.php(91): require_once('D:\\xampp-7.1\\ht...')
+#5 D:\xampp-7.1\htdocs\wp-load.php(37): require_once('D:\\xampp-7.1\\ht...')
+#6 D:\xampp-7.1\htdocs\wp-admin\admin.php(31): require_once('D:\\xampp-7.1\\ht...')
+#7 D:\xampp-7.1\htdocs\wp-admin\plugins.php(10): require_once('D:\\xampp-7.1\\ht...')
+#8 {main}
+  thrown
+
+2023-02-26T00:29:35+00:00 CRITICAL Uncaught Error: Call to undefined function ACFFrontend\register_block_type() in D:\xampp-7.1\htdocs\wp-content\plugins\acf-frontend-form-element-pro\includes\gutenberg\module.php:17
+Stack trace:
+#0 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(286): ACFFrontend\ACFFrontend_Gutenberg->register_blocks('')
+#1 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp-7.1\htdocs\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp-7.1\htdocs\wp-settings.php(450): do_action('init')
+#4 D:\xampp-7.1\htdocs\wp-config.php(91): require_once('D:\\xampp-7.1\\ht...')
+#5 D:\xampp-7.1\htdocs\wp-load.php(37): require_once('D:\\xampp-7.1\\ht...')
+#6 D:\xampp-7.1\htdocs\wp-admin\admin-ajax.php(22): require_once('D:\\xampp-7.1\\ht...')
+#7 {main}
+  thrown
+
+2023-02-26T00:30:20+00:00 CRITICAL Uncaught Error: Call to undefined function ACFFrontend\register_block_type() in D:\xampp-7.1\htdocs\wp-content\plugins\acf-frontend-form-element-pro\includes\gutenberg\module.php:17
+Stack trace:
+#0 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(286): ACFFrontend\ACFFrontend_Gutenberg->register_blocks('')
+#1 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp-7.1\htdocs\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp-7.1\htdocs\wp-settings.php(450): do_action('init')
+#4 D:\xampp-7.1\htdocs\wp-config.php(91): require_once('D:\\xampp-7.1\\ht...')
+#5 D:\xampp-7.1\htdocs\wp-load.php(37): require_once('D:\\xampp-7.1\\ht...')
+#6 D:\xampp-7.1\htdocs\wp-admin\admin.php(31): require_once('D:\\xampp-7.1\\ht...')
+#7 D:\xampp-7.1\htdocs\wp-admin\plugins.php(10): require_once('D:\\xampp-7.1\\ht...')
+#8 {main}
+  thrown
+
+2023-02-26T00:30:29+00:00 CRITICAL Uncaught Error: Call to undefined function ACFFrontend\register_block_type() in D:\xampp-7.1\htdocs\wp-content\plugins\acf-frontend-form-element-pro\includes\gutenberg\module.php:17
+Stack trace:
+#0 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(286): ACFFrontend\ACFFrontend_Gutenberg->register_blocks('')
+#1 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp-7.1\htdocs\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp-7.1\htdocs\wp-settings.php(450): do_action('init')
+#4 D:\xampp-7.1\htdocs\wp-config.php(91): require_once('D:\\xampp-7.1\\ht...')
+#5 D:\xampp-7.1\htdocs\wp-load.php(37): require_once('D:\\xampp-7.1\\ht...')
+#6 D:\xampp-7.1\htdocs\wp-admin\admin-ajax.php(22): require_once('D:\\xampp-7.1\\ht...')
+#7 {main}
+  thrown
+
+2023-02-26T00:31:37+00:00 CRITICAL Uncaught Error: Call to undefined function ACFFrontend\register_block_type() in D:\xampp-7.1\htdocs\wp-content\plugins\acf-frontend-form-element-pro\includes\gutenberg\module.php:17
+Stack trace:
+#0 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(286): ACFFrontend\ACFFrontend_Gutenberg->register_blocks('')
+#1 D:\xampp-7.1\htdocs\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 D:\xampp-7.1\htdocs\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 D:\xampp-7.1\htdocs\wp-settings.php(450): do_action('init')
+#4 D:\xampp-7.1\htdocs\wp-config.php(91): require_once('D:\\xampp-7.1\\ht...')
+#5 D:\xampp-7.1\htdocs\wp-load.php(37): require_once('D:\\xampp-7.1\\ht...')
+#6 D:\xampp-7.1\htdocs\wp-admin\admin-ajax.php(22): require_once('D:\\xampp-7.1\\ht...')
+#7 {main}
+  thrown
+
